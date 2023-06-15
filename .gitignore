@@ -10,6 +10,7 @@ credentials.tf
 *.tfplan
 
 # .tfstate files
+.tfstate
 *.tfstate
 *.tfstate.*
 
