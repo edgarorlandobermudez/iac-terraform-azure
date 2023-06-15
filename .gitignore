@@ -6,6 +6,8 @@ credentials.tf
 **/.terraform/*
 **/.terragrunt-cache/*
 
+# .tfplan files
+*.tfplan
 *.tfplan
 *.tfplan*
 main.tfplan
