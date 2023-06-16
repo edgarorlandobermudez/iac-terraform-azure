@@ -1,3 +1,46 @@
+#  Local .terraform directories
+credentials.tf
+.terraform.lock.hcl
+.terraform/*
+*/.terraform/*
+**/.terraform/*
+**/.terragrunt-cache/*
+
+# .tfplan files
+*.tfplan
+*.tfplan
+*.tfplan*
+main.tfplan
+
+# .tfstate files
+.tfstate
+*.tfstate
+*.tfstate.*
+
+# .tfvars files
+*.tfvars
+
+# OS X files
+.history
+.DS_Store
+
+# vim
+*.sw*
+
+# OS X files
+.history
+.DS_Store
+
+# IntelliJ files
+.idea_modules
+*.iml
+*.iws
+*.ipr
+.idea/
+
+# visualcode
+.vscode/%
+
 # Local .terraform directories
 **/.terraform/*
 
